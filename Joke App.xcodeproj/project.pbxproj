@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		A79B8D1A2AE1CB0400A49CEC /* Joke_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79B8D192AE1CB0400A49CEC /* Joke_AppApp.swift */; };
-		A79B8D1C2AE1CB0400A49CEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79B8D1B2AE1CB0400A49CEC /* ContentView.swift */; };
 		A79B8D1E2AE1CB0500A49CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79B8D1D2AE1CB0500A49CEC /* Assets.xcassets */; };
 		A79B8D212AE1CB0500A49CEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79B8D202AE1CB0500A49CEC /* Preview Assets.xcassets */; };
+		A79B8D3B2AE7186A00A49CEC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79B8D3A2AE7186A00A49CEC /* HomeView.swift */; };
+		A79B8D3D2AE71A7800A49CEC /* DadJokeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79B8D3C2AE71A7800A49CEC /* DadJokeViewModel.swift */; };
+		A79B8D3F2AE71B5900A49CEC /* DadJoke.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79B8D3E2AE71B5900A49CEC /* DadJoke.swift */; };
+		A79B8D412AE7272B00A49CEC /* DadJokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79B8D402AE7272B00A49CEC /* DadJokeView.swift */; };
+		A79B8D442AE8532200A49CEC /* SavedJokesCDModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A79B8D422AE8532200A49CEC /* SavedJokesCDModel.xcdatamodeld */; };
+		A79B8D462AE853C200A49CEC /* JokePersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79B8D452AE853C200A49CEC /* JokePersistenceManager.swift */; };
+		A79B8D482AE8570D00A49CEC /* SavedJokeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79B8D472AE8570D00A49CEC /* SavedJokeViewModel.swift */; };
+		A79B8D4C2AE862BC00A49CEC /* SavedJokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79B8D4B2AE862BC00A49CEC /* SavedJokeView.swift */; };
+		A79B8D502AE86B8A00A49CEC /* JokeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79B8D4F2AE86B8A00A49CEC /* JokeRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A79B8D162AE1CB0400A49CEC /* Joke App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Joke App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79B8D192AE1CB0400A49CEC /* Joke_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke_AppApp.swift; sourceTree = "<group>"; };
-		A79B8D1B2AE1CB0400A49CEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A79B8D1D2AE1CB0500A49CEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A79B8D202AE1CB0500A49CEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A79B8D3A2AE7186A00A49CEC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A79B8D3C2AE71A7800A49CEC /* DadJokeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokeViewModel.swift; sourceTree = "<group>"; };
+		A79B8D3E2AE71B5900A49CEC /* DadJoke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJoke.swift; sourceTree = "<group>"; };
+		A79B8D402AE7272B00A49CEC /* DadJokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokeView.swift; sourceTree = "<group>"; };
+		A79B8D432AE8532200A49CEC /* SavedJokesCDModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SavedJokesCDModel.xcdatamodel; sourceTree = "<group>"; };
+		A79B8D452AE853C200A49CEC /* JokePersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokePersistenceManager.swift; sourceTree = "<group>"; };
+		A79B8D472AE8570D00A49CEC /* SavedJokeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedJokeViewModel.swift; sourceTree = "<group>"; };
+		A79B8D4B2AE862BC00A49CEC /* SavedJokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedJokeView.swift; sourceTree = "<group>"; };
+		A79B8D4F2AE86B8A00A49CEC /* JokeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +67,9 @@
 		A79B8D182AE1CB0400A49CEC /* Joke App */ = {
 			isa = PBXGroup;
 			children = (
+				A79B8D2A2AE1CB3400A49CEC /* Managers */,
+				A79B8D332AE1D31B00A49CEC /* DadJoke */,
 				A79B8D192AE1CB0400A49CEC /* Joke_AppApp.swift */,
-				A79B8D1B2AE1CB0400A49CEC /* ContentView.swift */,
 				A79B8D1D2AE1CB0500A49CEC /* Assets.xcassets */,
 				A79B8D1F2AE1CB0500A49CEC /* Preview Content */,
 			);
@@ -65,6 +82,53 @@
 				A79B8D202AE1CB0500A49CEC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A79B8D272AE1CB1500A49CEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A79B8D402AE7272B00A49CEC /* DadJokeView.swift */,
+				A79B8D3A2AE7186A00A49CEC /* HomeView.swift */,
+				A79B8D4B2AE862BC00A49CEC /* SavedJokeView.swift */,
+				A79B8D4F2AE86B8A00A49CEC /* JokeRow.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A79B8D282AE1CB1C00A49CEC /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				A79B8D3C2AE71A7800A49CEC /* DadJokeViewModel.swift */,
+				A79B8D472AE8570D00A49CEC /* SavedJokeViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		A79B8D292AE1CB2400A49CEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A79B8D3E2AE71B5900A49CEC /* DadJoke.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A79B8D2A2AE1CB3400A49CEC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A79B8D422AE8532200A49CEC /* SavedJokesCDModel.xcdatamodeld */,
+				A79B8D452AE853C200A49CEC /* JokePersistenceManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A79B8D332AE1D31B00A49CEC /* DadJoke */ = {
+			isa = PBXGroup;
+			children = (
+				A79B8D292AE1CB2400A49CEC /* Model */,
+				A79B8D282AE1CB1C00A49CEC /* View Model */,
+				A79B8D272AE1CB1500A49CEC /* View */,
+			);
+			path = DadJoke;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +201,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A79B8D1C2AE1CB0400A49CEC /* ContentView.swift in Sources */,
+				A79B8D462AE853C200A49CEC /* JokePersistenceManager.swift in Sources */,
+				A79B8D4C2AE862BC00A49CEC /* SavedJokeView.swift in Sources */,
+				A79B8D3B2AE7186A00A49CEC /* HomeView.swift in Sources */,
 				A79B8D1A2AE1CB0400A49CEC /* Joke_AppApp.swift in Sources */,
+				A79B8D442AE8532200A49CEC /* SavedJokesCDModel.xcdatamodeld in Sources */,
+				A79B8D482AE8570D00A49CEC /* SavedJokeViewModel.swift in Sources */,
+				A79B8D3D2AE71A7800A49CEC /* DadJokeViewModel.swift in Sources */,
+				A79B8D3F2AE71B5900A49CEC /* DadJoke.swift in Sources */,
+				A79B8D502AE86B8A00A49CEC /* JokeRow.swift in Sources */,
+				A79B8D412AE7272B00A49CEC /* DadJokeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +411,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A79B8D422AE8532200A49CEC /* SavedJokesCDModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A79B8D432AE8532200A49CEC /* SavedJokesCDModel.xcdatamodel */,
+			);
+			currentVersion = A79B8D432AE8532200A49CEC /* SavedJokesCDModel.xcdatamodel */;
+			path = SavedJokesCDModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A79B8D0E2AE1CB0400A49CEC /* Project object */;
 }
