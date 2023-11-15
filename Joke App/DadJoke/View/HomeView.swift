@@ -9,17 +9,15 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        TabView {
-            DadJokeView(dadJokeViewModel: DadJokeViewModel(), savedJokeViewModel: SavedJokeViewModel())
-                .tabItem {
-                    Label("Joke", systemImage: "magnifyingglass")
-                }
-            SavedJokeView()
-                .tabItem {
-                    Label("saved", systemImage: "heart")
-                }
-        }
-    }
+        Text("HI")
+//        NavigationStack {
+//            VStack{
+//                Button(HomeScreenButton(text: "hi", action: NavigationLink(){
+//                    DadJokeView(dadJokeViewModel: DadJokeViewModel(), savedJokeViewModel: SavedJokeViewModel())
+//                })
+//            }
+//        }
+   }
 }
 
 

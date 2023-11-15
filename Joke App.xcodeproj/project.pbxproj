@@ -21,6 +21,8 @@
 		A79B8D502AE86B8A00A49CEC /* JokeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79B8D4F2AE86B8A00A49CEC /* JokeRow.swift */; };
 		A7C1A1FD2B054A9C003107B8 /* NewJokeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C1A1FC2B054A9C003107B8 /* NewJokeButton.swift */; };
 		A7C1A2042B055095003107B8 /* FuturaHandwritten.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7C1A2032B055095003107B8 /* FuturaHandwritten.ttf */; };
+		A7C1A2062B055ECA003107B8 /* SaveJokeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C1A2052B055ECA003107B8 /* SaveJokeButton.swift */; };
+		A7C1A2092B0572FD003107B8 /* HomeScreenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C1A2082B0572FD003107B8 /* HomeScreenButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		A7C1A1FC2B054A9C003107B8 /* NewJokeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewJokeButton.swift; sourceTree = "<group>"; };
 		A7C1A2022B054F13003107B8 /* Joke-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Joke-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		A7C1A2032B055095003107B8 /* FuturaHandwritten.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FuturaHandwritten.ttf; sourceTree = "<group>"; };
+		A7C1A2052B055ECA003107B8 /* SaveJokeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveJokeButton.swift; sourceTree = "<group>"; };
+		A7C1A2082B0572FD003107B8 /* HomeScreenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,11 +97,10 @@
 		A79B8D272AE1CB1500A49CEC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A79B8D402AE7272B00A49CEC /* DadJokeView.swift */,
 				A79B8D3A2AE7186A00A49CEC /* HomeView.swift */,
 				A79B8D4B2AE862BC00A49CEC /* SavedJokeView.swift */,
-				A79B8D4F2AE86B8A00A49CEC /* JokeRow.swift */,
-				A7C1A1FC2B054A9C003107B8 /* NewJokeButton.swift */,
+				A79B8D402AE7272B00A49CEC /* DadJokeView.swift */,
+				A7C1A2072B0572C3003107B8 /* SupportingViews */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -137,6 +140,17 @@
 				A79B8D272AE1CB1500A49CEC /* View */,
 			);
 			path = DadJoke;
+			sourceTree = "<group>";
+		};
+		A7C1A2072B0572C3003107B8 /* SupportingViews */ = {
+			isa = PBXGroup;
+			children = (
+				A7C1A1FC2B054A9C003107B8 /* NewJokeButton.swift */,
+				A7C1A2082B0572FD003107B8 /* HomeScreenButton.swift */,
+				A7C1A2052B055ECA003107B8 /* SaveJokeButton.swift */,
+				A79B8D4F2AE86B8A00A49CEC /* JokeRow.swift */,
+			);
+			path = SupportingViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +227,7 @@
 				A7C1A1FD2B054A9C003107B8 /* NewJokeButton.swift in Sources */,
 				A79B8D462AE853C200A49CEC /* JokePersistenceManager.swift in Sources */,
 				A79B8D4C2AE862BC00A49CEC /* SavedJokeView.swift in Sources */,
+				A7C1A2062B055ECA003107B8 /* SaveJokeButton.swift in Sources */,
 				A79B8D3B2AE7186A00A49CEC /* HomeView.swift in Sources */,
 				A79B8D1A2AE1CB0400A49CEC /* Joke_AppApp.swift in Sources */,
 				A79B8D442AE8532200A49CEC /* SavedJokesCDModel.xcdatamodeld in Sources */,
@@ -220,6 +235,7 @@
 				A79B8D3D2AE71A7800A49CEC /* DadJokeViewModel.swift in Sources */,
 				A79B8D3F2AE71B5900A49CEC /* DadJoke.swift in Sources */,
 				A79B8D502AE86B8A00A49CEC /* JokeRow.swift in Sources */,
+				A7C1A2092B0572FD003107B8 /* HomeScreenButton.swift in Sources */,
 				A79B8D412AE7272B00A49CEC /* DadJokeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

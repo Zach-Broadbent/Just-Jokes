@@ -12,38 +12,48 @@ struct DadJokeView: View {
     @ObservedObject var savedJokeViewModel: SavedJokeViewModel
     
     var body: some View {
-        VStack {
-            if let joke = dadJokeViewModel.joke {
-                Text(joke.joke)
-                    .font(.headline)
-            } else {
-                Text("Press button for joke")
-            }
-            
-            Button(action: {
-                dadJokeViewModel.fetchRandomJoke()
-            }) {
-                NewJokeButton()
-
-            }
-            .padding(.top, 20)
-            
-           
-            
-            Button(action: {
+        ZStack {
+            Rectangle()
+                .frame(width: 380, height: 490)
+                .foregroundColor(Color("Primary"))
+            VStack {
+                
+                Spacer()
+                
                 if let joke = dadJokeViewModel.joke {
-                    savedJokeViewModel.addJoke(joke: joke)
+                    HStack {
+                        Spacer()
+                        Text(joke.joke)
+                            .font(.custom("Futura-Medium", size: 25))
+                        Spacer()
+                    }
+                        
+                } else {
+                    Text("Press button for joke")
+                        .font(.custom("Futura-Medium", size: 25))
                 }
-            }, label: {
-                Text("Save Joke")
-                    .font(.headline)
-                    .padding()
-                    .background(Color.green)
-                    .foregroundColor(.white)
-                    .cornerRadius(10)
-            })
-            
+                
+                Spacer()
+                
+                Button(action: {
+                    dadJokeViewModel.fetchRandomJoke()
+                }) {
+                    NewJokeButton()
+                    
+                }
+                .padding(.top, 20)
+                
+                Button(action: {
+                    if let joke = dadJokeViewModel.joke {
+                        savedJokeViewModel.addJoke(joke: joke)
+                    }
+                }, label: {
+                    SaveJokeButton()
+                })
+                .padding(.top, 30)
+            }
         }
+        .background(Color("Secondary"))
         .onAppear {
             dadJokeViewModel.fetchRandomJoke()
         }

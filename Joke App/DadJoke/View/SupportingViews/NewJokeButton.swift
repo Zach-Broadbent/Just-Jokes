@@ -11,9 +11,9 @@ struct NewJokeButton: View {
     var body: some View {
         ZStack{
             RoundedRectangle(cornerRadius: 75)
-                .fill(Color.gray)
+                .fill(Color("ButtonColor"))
                 .frame(width: 160, height: 50)
-            Text("🤩 New Joke")
+            Text("🤣 New Joke")
                 .foregroundColor(.primary)
                 .font(.custom("Futura-Bold", size: 20))
         }
