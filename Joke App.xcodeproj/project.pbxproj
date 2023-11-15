@@ -19,6 +19,8 @@
 		A79B8D482AE8570D00A49CEC /* SavedJokeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79B8D472AE8570D00A49CEC /* SavedJokeViewModel.swift */; };
 		A79B8D4C2AE862BC00A49CEC /* SavedJokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79B8D4B2AE862BC00A49CEC /* SavedJokeView.swift */; };
 		A79B8D502AE86B8A00A49CEC /* JokeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79B8D4F2AE86B8A00A49CEC /* JokeRow.swift */; };
+		A7C1A1FD2B054A9C003107B8 /* NewJokeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C1A1FC2B054A9C003107B8 /* NewJokeButton.swift */; };
+		A7C1A2042B055095003107B8 /* FuturaHandwritten.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7C1A2032B055095003107B8 /* FuturaHandwritten.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,9 @@
 		A79B8D472AE8570D00A49CEC /* SavedJokeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedJokeViewModel.swift; sourceTree = "<group>"; };
 		A79B8D4B2AE862BC00A49CEC /* SavedJokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedJokeView.swift; sourceTree = "<group>"; };
 		A79B8D4F2AE86B8A00A49CEC /* JokeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeRow.swift; sourceTree = "<group>"; };
+		A7C1A1FC2B054A9C003107B8 /* NewJokeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewJokeButton.swift; sourceTree = "<group>"; };
+		A7C1A2022B054F13003107B8 /* Joke-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Joke-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A7C1A2032B055095003107B8 /* FuturaHandwritten.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FuturaHandwritten.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,7 @@
 		A79B8D182AE1CB0400A49CEC /* Joke App */ = {
 			isa = PBXGroup;
 			children = (
+				A7C1A2022B054F13003107B8 /* Joke-App-Info.plist */,
 				A79B8D2A2AE1CB3400A49CEC /* Managers */,
 				A79B8D332AE1D31B00A49CEC /* DadJoke */,
 				A79B8D192AE1CB0400A49CEC /* Joke_AppApp.swift */,
@@ -91,6 +97,7 @@
 				A79B8D3A2AE7186A00A49CEC /* HomeView.swift */,
 				A79B8D4B2AE862BC00A49CEC /* SavedJokeView.swift */,
 				A79B8D4F2AE86B8A00A49CEC /* JokeRow.swift */,
+				A7C1A1FC2B054A9C003107B8 /* NewJokeButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -115,6 +122,7 @@
 		A79B8D2A2AE1CB3400A49CEC /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				A7C1A2032B055095003107B8 /* FuturaHandwritten.ttf */,
 				A79B8D422AE8532200A49CEC /* SavedJokesCDModel.xcdatamodeld */,
 				A79B8D452AE853C200A49CEC /* JokePersistenceManager.swift */,
 			);
@@ -190,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A79B8D212AE1CB0500A49CEC /* Preview Assets.xcassets in Resources */,
+				A7C1A2042B055095003107B8 /* FuturaHandwritten.ttf in Resources */,
 				A79B8D1E2AE1CB0500A49CEC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7C1A1FD2B054A9C003107B8 /* NewJokeButton.swift in Sources */,
 				A79B8D462AE853C200A49CEC /* JokePersistenceManager.swift in Sources */,
 				A79B8D4C2AE862BC00A49CEC /* SavedJokeView.swift in Sources */,
 				A79B8D3B2AE7186A00A49CEC /* HomeView.swift in Sources */,
@@ -342,6 +352,7 @@
 				DEVELOPMENT_TEAM = HSSZJZTQA2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Joke-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -371,6 +382,7 @@
 				DEVELOPMENT_TEAM = HSSZJZTQA2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Joke-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -23,12 +23,7 @@ struct DadJokeView: View {
             Button(action: {
                 dadJokeViewModel.fetchRandomJoke()
             }) {
-                Text("Generate A New Dad Joke")
-                    .font(.headline)
-                    .padding()
-                    .background(Color.blue)
-                    .foregroundColor(.white)
-                    .cornerRadius(10)
+                NewJokeButton()
 
             }
             .padding(.top, 20)

@@ -9,16 +9,6 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-//        NavigationStack {
-//            ScrollView {
-//                VStack {
-//                    NavigationLink("show saved jokes") {
-//                        SavedJokeView()
-//                    }
-//                    .navigationTitle("home")
-//                }
-//            }
-//        }
         TabView {
             DadJokeView(dadJokeViewModel: DadJokeViewModel(), savedJokeViewModel: SavedJokeViewModel())
                 .tabItem {

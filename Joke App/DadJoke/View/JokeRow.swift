@@ -16,9 +16,9 @@ struct JokeRow: View {
             Text(joke)
                 .font(.headline)
                 .foregroundColor(.primary)
-                .lineLimit(isExpanded ? nil : 2) // Set lineLimit to nil if expanded
+                .lineLimit(isExpanded ? nil : 2)
                 .onTapGesture {
-                isExpanded.toggle() // Toggle the expanded state on tap
+                isExpanded.toggle()
                             }
         }
         .padding(.vertical, 8)
