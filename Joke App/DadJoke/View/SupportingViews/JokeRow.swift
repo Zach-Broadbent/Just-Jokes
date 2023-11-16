@@ -14,7 +14,7 @@ struct JokeRow: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text(joke)
-                .font(.headline)
+                .font(.custom("Futura-Medium", size: 25))
                 .foregroundColor(.primary)
                 .lineLimit(isExpanded ? nil : 2)
                 .onTapGesture {

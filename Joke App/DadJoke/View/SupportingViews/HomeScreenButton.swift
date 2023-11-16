@@ -8,15 +8,14 @@
 import SwiftUI
 
 struct HomeScreenButton: View {
-    
     var text: String
-    
+
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 75)
                 .fill(Color("ButtonColor"))
                 .frame(width: 250, height: 50)
-            Text("\(text)")
+            Text(text)
                 .font(.custom("Futura-Bold", size: 20))
         }
     }

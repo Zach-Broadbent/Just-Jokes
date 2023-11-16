@@ -13,14 +13,22 @@ struct SavedJokeView: View {
     
     var body: some View {
         NavigationView {
-            List(savedJokeViewModel.savedJokes, id: \.self) { joke in
-                jokeRow(for: joke)
+            ZStack {
+                Color("Secondary")
+                savedJokeList
             }
-            .navigationBarTitle("Saved Jokes")
+            .onAppear {
+                savedJokeViewModel.fetchSavedJokes()
+            }
         }
-        .onAppear {
-            savedJokeViewModel.fetchSavedJokes()
+    }
+    
+    // MARK: SavedJokeList
+    var savedJokeList: some View {
+        List(savedJokeViewModel.savedJokes, id: \.self) { joke in
+            jokeRow(for: joke)
         }
+        .navigationBarTitle("Saved Jokes")
     }
     
     func jokeRow(for joke: JokeEntity) -> some View {
